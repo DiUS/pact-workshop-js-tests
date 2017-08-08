@@ -3,5 +3,5 @@ node_js:
   - "6"
 script:
   - git clone https://github.com/DiUS/pact-workshop-js.git
-  - cd pact-workshop-js && npm install
+  - (cd pact-workshop-js && npm install)
   - PROJECT_ROOT=pact-workshop-js ./specs.sh
