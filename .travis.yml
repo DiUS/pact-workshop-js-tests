@@ -4,4 +4,4 @@ node_js:
 script:
   - git clone https://github.com/DiUS/pact-workshop-js.git
   - (cd pact-workshop-js && npm install)
-  - PROJECT_ROOT=pact-workshop-js ./specs.sh
+  - PROJECT_ROOT="$(pwd)/pact-workshop-js" ./specs.sh
